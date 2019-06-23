@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+            android:id="@+id/admin_button"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:padding="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/rounded_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:id="@+id/student_button"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:padding="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/rounded_button"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="192.168.1.103"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="#888"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#ffffff"
+            android:id="@+id/ip_address"
+            android:padding="20dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change"
+            android:id="@+id/ip_save_button"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:padding="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/rounded_button"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
