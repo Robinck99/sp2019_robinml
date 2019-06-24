@@ -41,6 +41,7 @@
                 android:id="@+id/name_of_student"
                 android:layout_margin="10dp"
                 android:padding="20dp"
+                android:focusedByDefault="false"
                 />
 
         </LinearLayout>
@@ -77,6 +78,7 @@
                 android:id="@+id/rollno_of_student"
                 android:layout_margin="10dp"
                 android:padding="20dp"
+                android:focusedByDefault="false"
                 />
 
         </LinearLayout>

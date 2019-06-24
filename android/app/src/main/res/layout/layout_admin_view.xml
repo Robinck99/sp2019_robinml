@@ -1,6 +1,198 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_button"
+        android:text="Student Records"
+        android:textSize="20sp"
+        android:id="@+id/admin_get_student_records"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_button"
+            android:text="Add Student"
+            android:textSize="20sp"
+            android:id="@+id/add_student_record"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_button"
+            android:text="Remove Student"
+            android:textSize="20sp"
+            android:id="@+id/remove_student_record"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_button"
+            android:text="Update Student"
+            android:textSize="20sp"
+            android:id="@+id/update_student_record"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/layout_name"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Student Name"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:elevation="10dp"
+                android:textColorHint="#888"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="#ffffff"
+                android:id="@+id/name_of_student"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:focusedByDefault="false"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/layout_rollno"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Student Roll.No"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="Roll No."
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:elevation="10dp"
+                android:textColor="#000"
+                android:textColorHint="#888"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="#ffffff"
+                android:id="@+id/rollno_of_student"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:focusedByDefault="false"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:id="@+id/data_processing_button"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:elevation="10dp"
+            android:background="@drawable/rounded_button"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_button"
+            android:text="Attendence Record"
+            android:textSize="20sp"
+            android:id="@+id/admin_get_student_attendence_records"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:hint="2019_06_24"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:textColorHint="#888"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#fff"
+            android:focusedByDefault="false"
+            android:id="@+id/admin_date_of_record"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/record_data_display"
+        />
 
 </LinearLayout>
