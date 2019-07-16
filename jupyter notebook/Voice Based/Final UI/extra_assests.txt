@@ -1,0 +1,58 @@
+# circle = parent_canvas.create_oval(370, 160, 820, 610, outline="#00FFFF", width=60)
+# circle_2 = parent_canvas.create_oval(320, 110, 870, 660, outline="#00FFFF", width=10, fill="")
+
+# # line_x = parent_canvas.create_line(400, 385, 790, 385, fill="#FFFFFF", width=10)
+# # line_y = parent_canvas.create_line(600, 190, 600, 580, fill="#FFFFFF", width=10)
+# circle_inner = parent_canvas.create_oval(440, 230, 750, 540, fill="#00FFFF")
+# arc_out = parent_canvas.create_arc(430, 220, 760, 550, start=180, extent=180, outline="", fill="#000000" )
+# arc_inn = parent_canvas.create_arc(470, 260, 720, 510, start=0, extent=180, width=2, outline="#000000", fill="#000000")
+
+# x = 300
+# y = 100
+# d = 600
+# parent_canvas.create_line(x+d//2, y, x+d//2+1, y, fill="#00FFFF")
+# parent_canvas.create_line(x, y+d//2, x, y+d//2+1, fill="#00FFFF")
+# parent_canvas.create_line(x+d, y+d//2, x+d, y+d//2+1, fill="#00FFFF")
+# parent_canvas.create_line(x+d//2, y+d, x+d//2+1, y+d, fill="#00FFFF")
+# x45 = d//2 * math.sin(math.radians(45))
+# y45 = d//2 * math.cos(math.radians(45))
+# parent_canvas.create_line( x+ d//2 -x45, y+d//2 -y45, x+ d//2 -x45+1, y+ d//2 -y45+1, fill="#00FFFF")
+# parent_canvas.create_line( x+ d//2 +x45, y+d//2 +y45, x+ d//2 +x45+1, y+ d//2 +y45+1, fill="#00FFFF")
+# parent_canvas.create_line( x+ d//2 +x45, y+d//2 -y45, x+ d//2 +x45+1, y+ d//2 -y45+1, fill="#00FFFF")
+# parent_canvas.create_line( x+ d//2 -x45, y+d//2 +y45, x+ d//2 -x45+1, y+ d//2 +y45+1, fill="#00FFFF")
+
+# x45 = d//2 * math.sin(math.radians(22.5))
+# y45 = d//2 * math.cos(math.radians(22.5))
+# parent_canvas.create_line( x+ d//2 -x45, y+d//2 -y45, x+ d//2 -x45+1, y+ d//2 -y45+1, fill="#00FFFF")
+# parent_canvas.create_line( x+ d//2 +x45, y+d//2 +y45, x+ d//2 +x45+1, y+ d//2 +y45+1, fill="#00FFFF")
+# parent_canvas.create_line( x+ d//2 +x45, y+d//2 -y45, x+ d//2 +x45+1, y+ d//2 -y45+1, fill="#00FFFF")
+# parent_canvas.create_line( x+ d//2 -x45, y+d//2 +y45, x+ d//2 -x45+1, y+ d//2 +y45+1, fill="#00FFFF")
+
+# x45 = d//2 * math.sin(math.radians(67.5))
+# y45 = d//2 * math.cos(math.radians(67.5))
+# parent_canvas.create_line( x+ d//2 -x45, y+d//2 -y45, x+ d//2 -x45+1, y+ d//2 -y45+1, fill="#00FFFF")
+# parent_canvas.create_line( x+ d//2 +x45, y+d//2 +y45, x+ d//2 +x45+1, y+ d//2 +y45+1, fill="#00FFFF")
+# parent_canvas.create_line( x+ d//2 +x45, y+d//2 -y45, x+ d//2 +x45+1, y+ d//2 -y45+1, fill="#00FFFF")
+# parent_canvas.create_line( x+ d//2 -x45, y+d//2 +y45, x+ d//2 -x45+1, y+ d//2 +y45+1, fill="#00FFFF")
+# # middle_circle
+# x = 450
+# y = 250
+# d = 300
+# parent_canvas.create_line(x+d//2, y, x+d//2+1, y, fill="#00FFFF")
+# parent_canvas.create_line(x, y+d//2, x, y+d//2+1, fill="#00FFFF")
+
+
+
+
+
+// FINAL UI STARTUP PAGE TESTING
+
+
+# parent_canvas.create_line(x+d, y+d//2, x+d, y+d//2+1, fill="#00FFFF")
+# parent_canvas.create_line(x+d//2, y+d, x+d//2+1, y+d, fill="#00FFFF")
+# x45 = d//2 * math.sin(math.radians(45))
+# y45 = d//2 * math.cos(math.radians(45))
+# parent_canvas.create_line( x+ d//2 -x45, y+d//2 -y45, x+ d//2 -x45+1, y+ d//2 -y45+1, fill="#00FFFF")
+# parent_canvas.create_line( x+ d//2 +x45, y+d//2 +y45, x+ d//2 +x45+1, y+ d//2 +y45+1, fill="#00FFFF")
+# parent_canvas.create_line( x+ d//2 +x45, y+d//2 -y45, x+ d//2 +x45+1, y+ d//2 -y45+1, fill="#00FFFF")
+# parent_canvas.create_line( x+ d//2 -x45, y+d//2 +y45, x+ d//2 -x45+1, y+ d//2 +y45+1, fill="#00FFFF")

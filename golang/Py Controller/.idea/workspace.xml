@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="479b95c2-2537-4e20-8d1c-5a5e698de479" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../android/PyController/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/PyController/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/PyController/app/src/main/res/drawable-anydpi/ic_voice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/PyController/app/src/main/res/drawable/bg_color_gradient.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/PyController/app/src/main/res/drawable/rounded_btn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/PyController/app/src/main/res/drawable/rounded_corner_btn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/androidTest/java/com/ck/corp/opticalattendence/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/java/com/ck/corp/opticalattendence/Utils/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/java/com/ck/corp/opticalattendence/Utils/PrefrenceManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/java/com/ck/corp/opticalattendence/activities/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/java/com/ck/corp/opticalattendence/activities/LoginType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/java/com/ck/corp/opticalattendence/activities/SplashScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/java/com/ck/corp/opticalattendence/activities/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/java/com/ck/corp/opticalattendence/adapter/RecordsAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/java/com/ck/corp/opticalattendence/models/Records.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/res/drawable-v24/oval_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/res/drawable/rounded_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/res/layout/item_record_display.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/res/layout/layout_admin_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/res/layout/layout_login_type.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/res/layout/layout_splash_screen.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/res/layout/layout_student_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/app/src/test/java/com/ck/corp/opticalattendence/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyter notebook/RainFall Project/main_GUI.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyter notebook/RainFall Project/main_GUI.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyter notebook/RainFall Project/map_created/cur_map_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyter notebook/RainFall Project/map_created/cur_map_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyter notebook/Voice Based/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyter notebook/Voice Based/Untitled.ipynb" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/Py Controller.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Py Controller" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Py Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="go" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
